@@ -42,19 +42,20 @@
   gap: 1.25rem;
 }
 
-.form-group {
+.registro-container .form-group {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
 
-.form-label {
+.registro-container .form-label {
   color: #374151;
   font-size: 0.9rem;
   font-weight: 600;
+  margin-left: 0;
 }
 
-.form-input {
+.registro-container .form-input {
   background: #f9fafb;
   border: 1.5px solid #e5e7eb;
   border-radius: 8px;
@@ -65,17 +66,17 @@
   outline: none;
 }
 
-.form-input::placeholder {
+.registro-container .form-input::placeholder {
   color: #9ca3af;
 }
 
-.form-input:focus {
+.registro-container .form-input:focus {
   border-color: #3b82f6;
   background: white;
   box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
 }
 
-.form-input:hover {
+.registro-container .form-input:hover {
   border-color: #d1d5db;
 }
 
@@ -93,14 +94,14 @@
   margin-top: 1.5rem;
 }
 
-.link-highlight {
+.registro-container .link-highlight {
   color: #3b82f6;
   text-decoration: none;
   font-weight: 600;
   transition: color 0.2s;
 }
 
-.link-highlight:hover {
+.registro-container .link-highlight:hover {
   color: #2563eb;
   text-decoration: underline;
 }
